@@ -1,4 +1,9 @@
 // set game configuration
+import {myShader} from './lib/shader.js';
+import {preloadScene} from './lib/preload.js';
+import {titleScene} from './lib/title.js';
+import {shufflerScene} from './lib/shuffler.js';
+
 var isMobile = navigator.userAgent.indexOf("Mobile");
 var w = 1600;
 var h = 1000;

@@ -1,12 +1,8 @@
 <!doctype html>
 <html lang="en">
     <head id="phaser-app">
-         <link rel="preload" as="font" href="assets/candyshop.ttf" type="font/ttf" />
 
-        <style>  @font-face {
-    font-family: candyshop;
-    src: url('assets/candyshop.ttf');
-}</style>
+  
     
         <meta charset="utf-8"/>
         <title>Making phaces!</title>
@@ -27,12 +23,13 @@
 
     <body style="background-color:#e9aad1">
         <script src="lib/phaser.js"></script> 
-                <script src="lib/preload.js"></script> 
 
-        <script src="lib/shuffler.js"></script> 
-        <script src="lib/title.js"></script> 
+        <script type="module" src="lib/preload.js"></script> 
 
-        <script src="main.js"></script>
+        <script type="module" src="lib/shuffler.js"></script> 
+        <script type="module" src="lib/title.js"></script> 
+
+        <script type="module" src="main.js"></script>
         
         
     </body>
