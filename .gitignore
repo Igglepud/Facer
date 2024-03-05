@@ -1,1 +1,4 @@
 node_modules
+android
+widget
+capacitor.config.json
